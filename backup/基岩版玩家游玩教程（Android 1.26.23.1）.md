@@ -75,15 +75,14 @@ Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds
 
 服务器使用 Floodgate 让基岩玩家进入 Java 服务器，同时使用 AuthMe 保护玩家账号。
 
-第一次进入后打开聊天栏，输入：
+第一次进入时，服务器会自动显示独立的注册窗口。按照窗口提示设置密码并再次确认，然后提交即可，不需要手动输入注册指令。
+
+以后进入服务器时会自动显示登录窗口，输入之前设置的密码即可。
+
+如果窗口没有正常显示，可以打开聊天栏使用备用指令：
 
 ```text
 /register 自定义密码 自定义密码
-```
-
-以后进入时输入：
-
-```text
 /login 你的密码
 ```
 

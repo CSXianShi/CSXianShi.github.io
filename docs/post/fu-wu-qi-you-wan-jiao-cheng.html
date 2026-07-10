@@ -133,14 +133,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>服务器版本为 Purpur <code class="notranslate">1.21.11</code>，是纯净生存服，支持 Java 版和基岩版互通。服务器会自动下发音乐资源包；首次进入或资源包更新时请等待下载完成。</p>
 <h2>四、第一次进入：注册和登录</h2>
 <p>服务器使用 AuthMe 保护玩家账号。</p>
-<p>第一次进入后按 <code class="notranslate">T</code> 打开聊天栏，输入：</p>
+<p>第一次进入服务器时，游戏会自动打开一个独立的注册窗口。按照窗口提示设置密码并再次确认，然后提交即可进入游戏，不需要在聊天栏输入注册指令。</p>
+<p>以后再次进入服务器时，会自动打开登录窗口。输入之前设置的密码并提交即可。</p>
+<p>如果登录窗口没有正常出现，可以按 <code class="notranslate">T</code> 打开聊天栏，使用备用指令：</p>
 <pre lang="text" class="notranslate"><code class="notranslate">/register 自定义密码 自定义密码
-</code></pre>
-<p>例如：</p>
-<pre lang="text" class="notranslate"><code class="notranslate">/register MyPassword123 MyPassword123
-</code></pre>
-<p>以后每次进入服务器输入：</p>
-<pre lang="text" class="notranslate"><code class="notranslate">/login 你的密码
+/login 你的密码
 </code></pre>
 <p>不要把自己的密码发到公屏，也不要使用与其他网站相同的密码。</p>
 <h2>五、常用指令</h2>
@@ -163,7 +160,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h3>进服后没有音乐</h3>
 <p>等待资源包下载完成后重新进入服务器。在“选项 → 资源包”中确认服务器资源包已启用；如果仍无声音，检查游戏主音量和“音乐”音量，并重新连接一次服务器。</p>
 <h3>提示账号未登录</h3>
-<p>按 <code class="notranslate">T</code> 打开聊天栏，输入 <code class="notranslate">/login 你的密码</code>。首次进入必须先用 <code class="notranslate">/register 密码 密码</code> 注册。</p></div>
+<p>正常情况下进服后会自动出现登录窗口。窗口未出现时，按 <code class="notranslate">T</code> 打开聊天栏，输入 <code class="notranslate">/login 你的密码</code>；首次进入则使用 <code class="notranslate">/register 密码 密码</code>。</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>

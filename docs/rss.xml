@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CS Blog</title><link>https://CSXianShi.github.io</link><description>宪石的博客</description><copyright>CS Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/123544568?v=4</url><title>avatar</title><link>https://CSXianShi.github.io</link></image><lastBuildDate>Fri, 10 Jul 2026 15:36:35 +0000</lastBuildDate><managingEditor>CS Blog</managingEditor><ttl>60</ttl><webMaster>CS Blog</webMaster><item><title>服务器游玩教程</title><link>https://CSXianShi.github.io/post/fu-wu-qi-you-wan-jiao-cheng.html</link><description>## 一、准备 PCL 启动器
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>CS Blog</title><link>https://CSXianShi.github.io</link><description>宪石的博客</description><copyright>CS Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/123544568?v=4</url><title>avatar</title><link>https://CSXianShi.github.io</link></image><lastBuildDate>Fri, 10 Jul 2026 15:59:04 +0000</lastBuildDate><managingEditor>CS Blog</managingEditor><ttl>60</ttl><webMaster>CS Blog</webMaster><item><title>基岩版玩家游玩教程（Android 1.26.23.1）</title><link>https://CSXianShi.github.io/post/ji-yan-ban-wan-jia-you-wan-jiao-cheng-%EF%BC%88Android%201.26.23.1%EF%BC%89.html</link><description>## 一、版本与设备要求
+
+本服务器的基岩版固定使用：
+
+- Minecraft Bedrock `1.26.23.1`
+- 安卓 `arm64-v8a` 版本
+- Android 8.0 或更高版本
+- 安装包大小：`660316388` 字节（约 630MB）
+
+这个安装包只能用于 64 位 ARM 安卓手机和平板。</description><guid isPermaLink="true">https://CSXianShi.github.io/post/ji-yan-ban-wan-jia-you-wan-jiao-cheng-%EF%BC%88Android%201.26.23.1%EF%BC%89.html</guid><pubDate>Fri, 10 Jul 2026 18:28:41 +0000</pubDate></item><item><title>服务器游玩教程</title><link>https://CSXianShi.github.io/post/fu-wu-qi-you-wan-jiao-cheng.html</link><description>## 一、准备 PCL 启动器
 
 ### 1. 下载 PCL
 
